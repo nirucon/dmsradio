@@ -74,8 +74,6 @@ case $choice in
     'Quit')
         output "Program terminated." && exit 0
     ;;
-    # common practice to use the wildcard asterisk symbol (*) as a final
-    # pattern to define the default case. This pattern will always match
     *)
         exit 0
     ;;
